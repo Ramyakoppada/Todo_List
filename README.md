@@ -197,7 +197,7 @@ http://127.0.0.1:5000
   
   <img width="1920" height="1080" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/1cb38a0b-f45e-4422-b787-873bc32a96f4" />
 
-* **Task List :**
+* **View Tasks :**
   
   <img width="1920" height="1080" alt="Screenshot (99)" src="https://github.com/user-attachments/assets/f053ae8e-4d3d-4a38-a6a2-3f391048b725" />
 
