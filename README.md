@@ -63,7 +63,7 @@ Displays real-time task statistics:
 
 ## 📂 Project Structure
 
-
+```
 TODO_LIST/
 │
 ├── static/
@@ -77,9 +77,9 @@ TODO_LIST/
 │
 ├── app.py
 └── db.sql
-
-
+```
 ---
+
 ## 🔗 API Endpoints
 
 ### 🔐 Authentication
@@ -132,44 +132,50 @@ TODO_LIST/
 
 ### 1️⃣ Clone Repository
 
+```bash
 git clone https://github.com/Ramyakoppada/Todo_List
-cd To_List
-
+cd Todo_List
+```
 
 ### 2️⃣ Install Dependencies
 
+```bash
 pip install flask mysql-connector-python
-
+```
 
 ### 3️⃣ Setup MySQL Database
 
 * Create database:
 
+```sql
 CREATE DATABASE todo_list;
-
+```
 
 ### 4️⃣ Configure Database Credentials
 
 Update in **app.py**:
 
-python
+```python
 host="127.0.0.1",
 user="root",
 password="YOUR_PASSWORD",
 database="todo_list"
-
+```
 
 ### 5️⃣ Run the Application
 
+```bash
 python app.py
-
+```
 
 Visit:
 
+```
 http://127.0.0.1:5000
-
+```
 
 ---
+
 
 ## 📸 Screenshots 
 
