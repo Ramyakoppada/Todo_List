@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* PAGE BACKGROUND */
+        body {
+            height: 100vh;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* SIGNUP CARD */
+        .signup-container {
+            width: 380px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        /* TITLE */
+        .signup-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #1e3a8a;
+        }
+
+        /* INPUTS */
+        .signup-container input {
+            width: 100%;
+            padding: 10px 12px;
+            margin-top: 12px;
+            border-radius: 6px;
+            border: 1px solid #cbd5e1;
+            font-size: 14px;
+        }
+
+        /* BUTTON */
+        .signup-container button {
+            width: 100%;
+            margin-top: 18px;
+            padding: 10px;
+            background: #2563eb;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .signup-container button:hover {
+            background: #1e40af;
+        }
+
+        /* LOGIN LINK */
+        .signup-container p {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .signup-container a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .signup-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="signup-container">
+    <h2>Create Account</h2>
+
+    <input id="newUsername" type="text" placeholder="Username">
+    <input id="newPassword" type="password" placeholder="Password">
+
+    <button onclick="signup()">Sign Up</button>
+
+    <p>
+        Already have an account?
+        <a href="/">Login</a>
+    </p>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* PAGE BACKGROUND */
+        body {
+            height: 100vh;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* LOGIN CARD */
+        .login-container {
+            width: 360px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        /* TITLE */
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #1e3a8a;
+        }
+
+        /* INPUTS */
+        .login-container input {
+            width: 100%;
+            padding: 10px 12px;
+            margin-top: 12px;
+            border-radius: 6px;
+            border: 1px solid #cbd5e1;
+            font-size: 14px;
+        }
+
+        /* BUTTON */
+        .login-container button {
+            width: 100%;
+            margin-top: 18px;
+            padding: 10px;
+            background: #2563eb;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background: #1e40af;
+        }
+
+        /* SIGNUP LINK */
+        .login-container p {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .login-container a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+
+    <input id="username" type="text" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+
+    <p>
+        Don’t have an account?
+        <a href="/signup">Sign up</a>
+    </p>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
