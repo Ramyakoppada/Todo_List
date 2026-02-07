@@ -85,46 +85,51 @@ TODO_LIST/
 ```
 
 ---
+## 🔗 API Endpoints
 
-## 🔌 API Endpoints
+### 🔐 Authentication
 
-### Authentication
+**POST** `/api/signup`  
+→ Register a new user  
 
-| Method | Endpoint      | Description         |
-| ------ | ------------- | ------------------- |
-| POST   | `/api/signup` | Register a new user |
-| POST   | `/api/login`  | Authenticate user   |
+**POST** `/api/login`  
+→ Authenticate user  
 
-### Tasks
+---
 
-| Method | Endpoint                       | Description        |
-| ------ | ------------------------------ | ------------------ |
-| POST   | `/api/tasks`                   | Add a new task     |
-| GET    | `/api/tasks/<user_id>`         | Fetch user tasks   |
-| PUT    | `/api/tasks/status`            | Update task status |
-| DELETE | `/api/tasks/<task_id>`         | Delete task        |
-| GET    | `/api/tasks/summary/<user_id>` | Dashboard summary  |
+### ✅ Tasks
+
+**POST** `/api/tasks`  
+→ Add a new task  
+
+**GET** `/api/tasks/<user_id>`  
+→ Fetch user tasks  
+
+**PUT** `/api/tasks/status`  
+→ Update task status  
+
+**DELETE** `/api/tasks/<task_id>`  
+→ Delete task  
+
+**GET** `/api/tasks/summary/<user_id>`  
+→ Dashboard summary  
 
 ---
 
 ## 🗄 Database Schema
 
-### **Users Table**
+### 👤 Users Table
+- **id** — INT (Primary Key)  
+- **username** — VARCHAR  
+- **password** — VARCHAR  
 
-| Column   | Type     |
-| -------- | -------- |
-| id       | INT (PK) |
-| username | VARCHAR  |
-| password | VARCHAR  |
+---
 
-### **Tasks Table**
-
-| Column  | Type     |
-| ------- | -------- |
-| id      | INT (PK) |
-| user_id | INT (FK) |
-| task    | TEXT     |
-| status  | VARCHAR  |
+### 📝 Tasks Table
+- **id** — INT (Primary Key)  
+- **user_id** — INT (Foreign Key)  
+- **task** — TEXT  
+- **status** — VARCHAR  
 
 ---
 
@@ -192,8 +197,5 @@ Include:
 
 
 
-| -------- |
-| abc      |
-|  cde     |
-|  ff      |
+
 
