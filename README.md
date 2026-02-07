@@ -182,7 +182,7 @@ http://127.0.0.1:5000
 
 * **Login Page :**
   
-  <img width="1920" height="1000" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/b6b873f1-fb72-440e-be6a-793440cdf50f" />
+  <img width="1920" height="1080" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/b6b873f1-fb72-440e-be6a-793440cdf50f" />
 
   
 * **Signup Page :**
