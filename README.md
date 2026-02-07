@@ -59,11 +59,7 @@ Displays real-time task statistics:
 * Completed
 * In Progress
 * Pending
-
-### ✅ RESTful APIs
-
-Fully integrated backend APIs for seamless frontend communication.
-
+* 
 ---
 
 ## 📂 Project Structure
@@ -152,9 +148,9 @@ pip install flask mysql-connector-python
 
 * Create database:
 
-```sql
+sql
 CREATE DATABASE todo_list;
-```
+
 
 ### 4️⃣ Configure Database Credentials
 
@@ -183,22 +179,26 @@ http://127.0.0.1:5000
 
 ## 📸 Screenshots 
 
-Include:
 
-* Login Page
+* **Login Page :**
+  
   <img width="1920" height="1080" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/b6b873f1-fb72-440e-be6a-793440cdf50f" />
 
   
-* Signup Page
+* **Signup Page :**
+  
   <img width="1920" height="1080" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/d68c54f1-017f-4e77-9d75-26a71211fc90" />
 
-* Dashboard
+* **Dashboard :**
+  
   <img width="1920" height="1080" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/d0a7d668-d550-4893-b411-cbf61e9a0202" />
 
-* Add Task
+* **Add Task :**
+  
   <img width="1920" height="1080" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/1cb38a0b-f45e-4422-b787-873bc32a96f4" />
 
-* Task List
+* **Task List :**
+  
   <img width="1920" height="1080" alt="Screenshot (99)" src="https://github.com/user-attachments/assets/f053ae8e-4d3d-4a38-a6a2-3f391048b725" />
 
 ---
