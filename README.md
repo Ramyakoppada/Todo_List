@@ -26,7 +26,7 @@ This project demonstrates strong system design, API development, database integr
 ### **Tools**
 
 * VS Code
-* Git & GitHub
+* GitHub
 * REST APIs
 
 ---
@@ -138,15 +138,15 @@ TODO_LIST/
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone <your-repo-url>
-cd task-manager
+git clone https://github.com/Ramyakoppada/Todo_List
+cd To_List
 ```
 
 ### 2️⃣ Install Dependencies
 
-```bash
+bash
 pip install flask mysql-connector-python
-```
+
 
 ### 3️⃣ Setup MySQL Database
 
