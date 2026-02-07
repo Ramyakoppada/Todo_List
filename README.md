@@ -1,6 +1,6 @@
 ## 🚀 Project Overview
 
-The **Todo_List** is a full-stack web application that enables users to manage daily tasks efficiently. It provides secure login/signup functionality, task creation, status tracking and dashboard analytics.
+The **todo_list** is a full-stack web application that enables users to manage daily tasks efficiently. It provides secure login/signup functionality, task creation, status tracking and dashboard analytics.
 
 This project demonstrates strong system design, API development, database integration and frontend-backend communication.
 
@@ -156,8 +156,6 @@ pip install flask mysql-connector-python
 CREATE DATABASE todo_list;
 ```
 
-* Import `db.sql`
-
 ### 4️⃣ Configure Database Credentials
 
 Update in **app.py**:
@@ -188,10 +186,20 @@ http://127.0.0.1:5000
 Include:
 
 * Login Page
+  <img width="1920" height="1080" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/b6b873f1-fb72-440e-be6a-793440cdf50f" />
+
+  
 * Signup Page
+  <img width="1920" height="1080" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/d68c54f1-017f-4e77-9d75-26a71211fc90" />
+
 * Dashboard
+  <img width="1920" height="1080" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/d0a7d668-d550-4893-b411-cbf61e9a0202" />
+
 * Add Task
+  <img width="1920" height="1080" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/1cb38a0b-f45e-4422-b787-873bc32a96f4" />
+
 * Task List
+  <img width="1920" height="1080" alt="Screenshot (99)" src="https://github.com/user-attachments/assets/f053ae8e-4d3d-4a38-a6a2-3f391048b725" />
 
 ---
 
