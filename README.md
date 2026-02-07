@@ -1,6 +1,6 @@
 ## 🚀 Project Overview
 
-The **todo_list** is a full-stack web application that enables users to manage daily tasks efficiently. It provides secure login/signup functionality, task creation, status tracking and dashboard analytics.
+The todo_list is a full-stack web application that enables users to manage daily tasks efficiently. It provides secure login/signup functionality, task creation, status tracking and dashboard analytics.
 
 This project demonstrates strong system design, API development, database integration and frontend-backend communication.
 
@@ -59,12 +59,11 @@ Displays real-time task statistics:
 * Completed
 * In Progress
 * Pending
-* 
 ---
 
 ## 📂 Project Structure
 
-```
+
 TODO_LIST/
 │
 ├── static/
@@ -78,7 +77,7 @@ TODO_LIST/
 │
 ├── app.py
 └── db.sql
-```
+
 
 ---
 ## 🔗 API Endpoints
@@ -133,14 +132,12 @@ TODO_LIST/
 
 ### 1️⃣ Clone Repository
 
-```bash
 git clone https://github.com/Ramyakoppada/Todo_List
 cd To_List
-```
+
 
 ### 2️⃣ Install Dependencies
 
-bash
 pip install flask mysql-connector-python
 
 
@@ -148,7 +145,6 @@ pip install flask mysql-connector-python
 
 * Create database:
 
-sql
 CREATE DATABASE todo_list;
 
 
@@ -156,24 +152,22 @@ CREATE DATABASE todo_list;
 
 Update in **app.py**:
 
-```python
+python
 host="127.0.0.1",
 user="root",
 password="YOUR_PASSWORD",
 database="todo_list"
-```
+
 
 ### 5️⃣ Run the Application
 
-```bash
 python app.py
-```
+
 
 Visit:
 
-```
 http://127.0.0.1:5000
-```
+
 
 ---
 
